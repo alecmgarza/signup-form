@@ -47,23 +47,28 @@ html, body {
 .info p {
     font-size: 25px;
     font-weight: bold;
+    margin: 0px;
 }
 
 .container-2 {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    margin-top: 150px;
+    width: 100%;
+    padding-left: 50px;
+    justify-content: center;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 form p {
     font-size: 25px;
     font-weight: bold;
+    margin: 0px;
 }
 
 section {
@@ -85,10 +90,6 @@ section div {
     margin-right: 100px;
 }
 
-.button {
-    margin-top: 50px;
-}
-
 .button p {
     font-size: 16px;
 }
@@ -101,5 +102,3 @@ button {
     border-radius: 10px;
     border: 0px;
 }
-
-/* figure out why left: 50% doesn't center the text */
