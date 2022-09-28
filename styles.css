@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    margin: 0px;
+    display: flex;
+}
+
+.container {
+    position: relative;
+    display: inline-flex;
+    color: white;
+}
+
+.photo-credit {
+    position: absolute;
+    top: 95%;
+    left: 35%;
+}
+
+/* figure out why left: 50% doesn't center the text */
