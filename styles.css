@@ -10,11 +10,34 @@ html, body {
     display: inline-flex;
 }
 
+.logo {
+    position: absolute;
+    color: white;
+    top: 25%;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.odin {
+    padding-top: 8px;
+}
+
+.logo p {
+    font-size: 100px;
+    margin: 0px;
+}
+
+.odin {
+    height: 100px;
+}
 
 .photo-credit {
     position: absolute;
     top: 90%;
-    left: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     color: white;
 }
 
