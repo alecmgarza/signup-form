@@ -1,7 +1,8 @@
 html, body {
     height: 100%;
+    width: 100%;
     margin: 0px;
-    display: flex;
+    display: inline-flex;
 }
 
 .container {
@@ -26,6 +27,7 @@ html, body {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
+    margin-top: 150px;
 }
 
 form {
@@ -39,6 +41,10 @@ section {
 
 label {
     font-size: 14px;
+}
+
+input {
+    width: 300px;
 }
 
 section div {
