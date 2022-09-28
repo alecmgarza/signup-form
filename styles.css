@@ -7,20 +7,45 @@ html, body {
 .container {
     position: relative;
     display: inline-flex;
-    width: 100%;
 }
+
 
 .photo-credit {
     position: absolute;
-    top: 95%;
-    left: 13%;
+    top: 90%;
+    left: 30%;
     color: white;
 }
 
-p {
+.container-2 p {
     font-size: 25px;
     font-weight: bold;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
     margin-left: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    display: flex;
+}
+
+label {
+    font-size: 14px;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-right: 100px;
 }
 
 /* figure out why left: 50% doesn't center the text */
