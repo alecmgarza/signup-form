@@ -7,13 +7,20 @@ html, body {
 .container {
     position: relative;
     display: inline-flex;
-    color: white;
+    width: 100%;
 }
 
 .photo-credit {
     position: absolute;
     top: 95%;
-    left: 35%;
+    left: 13%;
+    color: white;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 50px;
 }
 
 /* figure out why left: 50% doesn't center the text */
