@@ -68,7 +68,7 @@ html, body {
 .form {
     border-top: solid thin #E5E7EB;
     border-bottom: solid thin #E5E7EB;
-    box-shadow: 0px 2px 12px;
+    box-shadow: 0px 1px 12px;
     background-color: rgb(255, 255, 255)
 }
 
