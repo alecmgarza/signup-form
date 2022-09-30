@@ -54,14 +54,17 @@
                     <div>
                         <label for="password-confirm">CONFIRM PASSWORD</label>
                         <input type="password" id="password-confirm" name="password-confirm" placeholder="must be 8-32 characters in length" required>
+                        <span id="must-match"></span>
                     </div>
                 </section>
             </form>
         </div>
         <div class="button">
-            <button form="signup-form" type="submit">Create Account</button>
+            <button form="signup-form" type="submit" onclick="matchPassword()">Create Account</button>
             <p>Already have an account? <span style="color: #596D48"><strong>Log in</strong></span></p>
         </div>
     </div>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
